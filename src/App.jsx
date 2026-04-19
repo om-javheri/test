@@ -1,10 +1,10 @@
 import { Link, Navigate, Route, Routes } from "react-router-dom";
-import MateParallaxWebsiteTemplatePage from "./components/MateParallaxWebsiteTemplatePage";
-import IndexPage from "./components/IndexPage";
+import AmberFolioDarkPhotographyPortfolioByTemplatemoPage from "./components/AmberFolioDarkPhotographyPortfolioByTemplatemoPage";
+import LatestFreeHtmlCssTemplatesTemplatemoPage from "./components/LatestFreeHtmlCssTemplatesTemplatemoPage";
 
 const pages = [
-  { id: "2d03c558-9a77-4e8b-abd9-649b3e24d1ab", name: "Mate - Parallax Website Template", path: "/", Component: MateParallaxWebsiteTemplatePage },
-  { id: "b69f1cb3-be1e-4a1e-bdce-23fab482b59e", name: ". Index", path: "/index", Component: IndexPage }
+  { id: "80bc0590-75e7-4a21-834b-9e6077ccaa8e", name: "Amber Folio Dark Photography Portfolio by TemplateMo", path: "/", Component: AmberFolioDarkPhotographyPortfolioByTemplatemoPage },
+  { id: "06f80c40-7353-450d-82d9-eb3f1b2689da", name: "Latest Free HTML CSS Templates - TemplateMo", path: "/latest-free-html-css-templates-templatemo", Component: LatestFreeHtmlCssTemplatesTemplatemoPage }
 ];
 
 export default function App() {
