@@ -1,4 +1,2 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://om-javheri.github.io/test/sitemap.xml
